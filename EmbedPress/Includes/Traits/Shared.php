@@ -86,18 +86,18 @@ trait Shared
                 'later' => array(
                     'link'       => 'https://wordpress.org/support/plugin/embedpress/reviews/',
                     'target'     => '_blank',
-                    'label'      => __('Ok, you deserve it!', 'wp-scheduled-posts'),
+                    'label'      => __('Ok, you deserve it!', 'embedpress'),
                     'icon_class' => 'dashicons dashicons-external',
                 ),
                 'allready' => array(
-                    'label' => __('I already did', 'wp-scheduled-posts'),
+                    'label' => __('I already did', 'embedpress'),
                     'icon_class' => 'dashicons dashicons-smiley',
                     'attributes' => [
                         'data-dismiss' => true
                     ],
                 ),
                 'maybe_later' => array(
-                    'label' => __('Maybe Later', 'wp-scheduled-posts'),
+                    'label' => __('Maybe Later', 'embedpress'),
                     'icon_class' => 'dashicons dashicons-calendar-alt',
                     'attributes' => [
                         'data-later' => true
@@ -105,11 +105,11 @@ trait Shared
                 ),
                 'support' => array(
                     'link' => 'https://wpdeveloper.com/support',
-                    'label' => __('I need help', 'wp-scheduled-posts'),
+                    'label' => __('I need help', 'embedpress'),
                     'icon_class' => 'dashicons dashicons-sos',
                 ),
                 'never_show_again' => array(
-                    'label' => __('Never show again', 'wp-scheduled-posts'),
+                    'label' => __('Never show again', 'embedpress'),
                     'icon_class' => 'dashicons dashicons-dismiss',
                     'attributes' => [
                         'data-dismiss' => true

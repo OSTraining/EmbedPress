@@ -325,9 +325,9 @@ class Elementor_Enhancer {
 		];
 
 		$labels = [
-			'watch_from_beginning'       => __( 'Watch from the beginning', 'embedpress-pro' ),
-			'skip_to_where_you_left_off' => __( 'Skip to where you left off', 'embedpress-pro' ),
-			'you_have_watched_it_before' => __( 'It looks like you\'ve watched<br />part of this video before!', 'embedpress-pro' ),
+			'watch_from_beginning'       => __( 'Watch from the beginning', 'embedpress' ),
+			'skip_to_where_you_left_off' => __( 'Skip to where you left off', 'embedpress' ),
+			'you_have_watched_it_before' => __( 'It looks like you\'ve watched<br />part of this video before!', 'embedpress' ),
 		];
 		$labels = json_encode( $labels );
 
